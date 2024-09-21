@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		633B43122C931DF800EFDC82 /* Forgetpassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633B43112C931DF800EFDC82 /* Forgetpassword.swift */; };
+		633B43142C931E4900EFDC82 /* Homepage Ui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633B43132C931E4900EFDC82 /* Homepage Ui.swift */; };
+		633B43162C955D1600EFDC82 /* FBAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633B43152C955D1600EFDC82 /* FBAuth.swift */; };
+		6372BC592C81CD7500C328B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6372BC582C81CD7500C328B0 /* ContentView.swift */; };
+		6372BC5B2C81CD7500C328B0 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6372BC5A2C81CD7500C328B0 /* Login.swift */; };
+		6372BC5D2C81CD7600C328B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6372BC5C2C81CD7600C328B0 /* Assets.xcassets */; };
+		6372BC612C81CD7600C328B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6372BC602C81CD7600C328B0 /* Preview Assets.xcassets */; };
+		6372BC6B2C81CD7600C328B0 /* Tasktrek_initial_draftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6372BC6A2C81CD7600C328B0 /* Tasktrek_initial_draftTests.swift */; };
+		6372BC752C81CD7600C328B0 /* Tasktrek_initial_draftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6372BC742C81CD7600C328B0 /* Tasktrek_initial_draftUITests.swift */; };
+		6372BC772C81CD7600C328B0 /* Tasktrek_initial_draftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6372BC762C81CD7600C328B0 /* Tasktrek_initial_draftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6372BC672C81CD7600C328B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6372BC4D2C81CD7500C328B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6372BC542C81CD7500C328B0;
+			remoteInfo = "Tasktrek initial draft";
+		};
+		6372BC712C81CD7600C328B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6372BC4D2C81CD7500C328B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6372BC542C81CD7500C328B0;
+			remoteInfo = "Tasktrek initial draft";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		633B43112C931DF800EFDC82 /* Forgetpassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forgetpassword.swift; sourceTree = "<group>"; };
+		633B43132C931E4900EFDC82 /* Homepage Ui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Homepage Ui.swift"; sourceTree = "<group>"; };
+		633B43152C955D1600EFDC82 /* FBAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBAuth.swift; sourceTree = "<group>"; };
+		6372BC552C81CD7500C328B0 /* Tasktrek initial draft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tasktrek initial draft.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6372BC582C81CD7500C328B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6372BC5A2C81CD7500C328B0 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		6372BC5C2C81CD7600C328B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6372BC5E2C81CD7600C328B0 /* Tasktrek_initial_draft.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tasktrek_initial_draft.entitlements; sourceTree = "<group>"; };
+		6372BC602C81CD7600C328B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6372BC662C81CD7600C328B0 /* Tasktrek initial draftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tasktrek initial draftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6372BC6A2C81CD7600C328B0 /* Tasktrek_initial_draftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasktrek_initial_draftTests.swift; sourceTree = "<group>"; };
+		6372BC702C81CD7600C328B0 /* Tasktrek initial draftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tasktrek initial draftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6372BC742C81CD7600C328B0 /* Tasktrek_initial_draftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasktrek_initial_draftUITests.swift; sourceTree = "<group>"; };
+		6372BC762C81CD7600C328B0 /* Tasktrek_initial_draftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasktrek_initial_draftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6372BC522C81CD7500C328B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6372BC632C81CD7600C328B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6372BC6D2C81CD7600C328B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6372BC4C2C81CD7500C328B0 = {
+			isa = PBXGroup;
+			children = (
+				6372BC572C81CD7500C328B0 /* Tasktrek initial draft */,
+				6372BC692C81CD7600C328B0 /* Tasktrek initial draftTests */,
+				6372BC732C81CD7600C328B0 /* Tasktrek initial draftUITests */,
+				6372BC562C81CD7500C328B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6372BC562C81CD7500C328B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6372BC552C81CD7500C328B0 /* Tasktrek initial draft.app */,
+				6372BC662C81CD7600C328B0 /* Tasktrek initial draftTests.xctest */,
+				6372BC702C81CD7600C328B0 /* Tasktrek initial draftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6372BC572C81CD7500C328B0 /* Tasktrek initial draft */ = {
+			isa = PBXGroup;
+			children = (
+				6372BC582C81CD7500C328B0 /* ContentView.swift */,
+				6372BC5C2C81CD7600C328B0 /* Assets.xcassets */,
+				6372BC5E2C81CD7600C328B0 /* Tasktrek_initial_draft.entitlements */,
+				633B43112C931DF800EFDC82 /* Forgetpassword.swift */,
+				6372BC5A2C81CD7500C328B0 /* Login.swift */,
+				633B43132C931E4900EFDC82 /* Homepage Ui.swift */,
+				6372BC5F2C81CD7600C328B0 /* Preview Content */,
+				633B43152C955D1600EFDC82 /* FBAuth.swift */,
+			);
+			path = "Tasktrek initial draft";
+			sourceTree = "<group>";
+		};
+		6372BC5F2C81CD7600C328B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6372BC602C81CD7600C328B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6372BC692C81CD7600C328B0 /* Tasktrek initial draftTests */ = {
+			isa = PBXGroup;
+			children = (
+				6372BC6A2C81CD7600C328B0 /* Tasktrek_initial_draftTests.swift */,
+			);
+			path = "Tasktrek initial draftTests";
+			sourceTree = "<group>";
+		};
+		6372BC732C81CD7600C328B0 /* Tasktrek initial draftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6372BC742C81CD7600C328B0 /* Tasktrek_initial_draftUITests.swift */,
+				6372BC762C81CD7600C328B0 /* Tasktrek_initial_draftUITestsLaunchTests.swift */,
+			);
+			path = "Tasktrek initial draftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6372BC542C81CD7500C328B0 /* Tasktrek initial draft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6372BC7A2C81CD7600C328B0 /* Build configuration list for PBXNativeTarget "Tasktrek initial draft" */;
+			buildPhases = (
+				6372BC512C81CD7500C328B0 /* Sources */,
+				6372BC522C81CD7500C328B0 /* Frameworks */,
+				6372BC532C81CD7500C328B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tasktrek initial draft";
+			productName = "Tasktrek initial draft";
+			productReference = 6372BC552C81CD7500C328B0 /* Tasktrek initial draft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6372BC652C81CD7600C328B0 /* Tasktrek initial draftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6372BC7D2C81CD7600C328B0 /* Build configuration list for PBXNativeTarget "Tasktrek initial draftTests" */;
+			buildPhases = (
+				6372BC622C81CD7600C328B0 /* Sources */,
+				6372BC632C81CD7600C328B0 /* Frameworks */,
+				6372BC642C81CD7600C328B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6372BC682C81CD7600C328B0 /* PBXTargetDependency */,
+			);
+			name = "Tasktrek initial draftTests";
+			productName = "Tasktrek initial draftTests";
+			productReference = 6372BC662C81CD7600C328B0 /* Tasktrek initial draftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6372BC6F2C81CD7600C328B0 /* Tasktrek initial draftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6372BC802C81CD7600C328B0 /* Build configuration list for PBXNativeTarget "Tasktrek initial draftUITests" */;
+			buildPhases = (
+				6372BC6C2C81CD7600C328B0 /* Sources */,
+				6372BC6D2C81CD7600C328B0 /* Frameworks */,
+				6372BC6E2C81CD7600C328B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6372BC722C81CD7600C328B0 /* PBXTargetDependency */,
+			);
+			name = "Tasktrek initial draftUITests";
+			productName = "Tasktrek initial draftUITests";
+			productReference = 6372BC702C81CD7600C328B0 /* Tasktrek initial draftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6372BC4D2C81CD7500C328B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6372BC542C81CD7500C328B0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6372BC652C81CD7600C328B0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6372BC542C81CD7500C328B0;
+					};
+					6372BC6F2C81CD7600C328B0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6372BC542C81CD7500C328B0;
+					};
+				};
+			};
+			buildConfigurationList = 6372BC502C81CD7500C328B0 /* Build configuration list for PBXProject "Tasktrek initial draft" */;
+			compatibilityVersion = "Xcode 15.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6372BC4C2C81CD7500C328B0;
+			productRefGroup = 6372BC562C81CD7500C328B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6372BC542C81CD7500C328B0 /* Tasktrek initial draft */,
+				6372BC652C81CD7600C328B0 /* Tasktrek initial draftTests */,
+				6372BC6F2C81CD7600C328B0 /* Tasktrek initial draftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6372BC532C81CD7500C328B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6372BC612C81CD7600C328B0 /* Preview Assets.xcassets in Resources */,
+				6372BC5D2C81CD7600C328B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6372BC642C81CD7600C328B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6372BC6E2C81CD7600C328B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6372BC512C81CD7500C328B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633B43142C931E4900EFDC82 /* Homepage Ui.swift in Sources */,
+				6372BC5B2C81CD7500C328B0 /* Login.swift in Sources */,
+				633B43162C955D1600EFDC82 /* FBAuth.swift in Sources */,
+				6372BC592C81CD7500C328B0 /* ContentView.swift in Sources */,
+				633B43122C931DF800EFDC82 /* Forgetpassword.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6372BC622C81CD7600C328B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6372BC6B2C81CD7600C328B0 /* Tasktrek_initial_draftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6372BC6C2C81CD7600C328B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6372BC772C81CD7600C328B0 /* Tasktrek_initial_draftUITestsLaunchTests.swift in Sources */,
+				6372BC752C81CD7600C328B0 /* Tasktrek_initial_draftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6372BC682C81CD7600C328B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6372BC542C81CD7500C328B0 /* Tasktrek initial draft */;
+			targetProxy = 6372BC672C81CD7600C328B0 /* PBXContainerItemProxy */;
+		};
+		6372BC722C81CD7600C328B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6372BC542C81CD7500C328B0 /* Tasktrek initial draft */;
+			targetProxy = 6372BC712C81CD7600C328B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6372BC782C81CD7600C328B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6372BC792C81CD7600C328B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6372BC7B2C81CD7600C328B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tasktrek initial draft/Tasktrek_initial_draft.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tasktrek initial draft/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tasktrek-initial-draft";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6372BC7C2C81CD7600C328B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tasktrek initial draft/Tasktrek_initial_draft.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tasktrek initial draft/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tasktrek-initial-draft";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6372BC7E2C81CD7600C328B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tasktrek-initial-draftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tasktrek initial draft.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tasktrek initial draft";
+			};
+			name = Debug;
+		};
+		6372BC7F2C81CD7600C328B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tasktrek-initial-draftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tasktrek initial draft.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tasktrek initial draft";
+			};
+			name = Release;
+		};
+		6372BC812C81CD7600C328B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tasktrek-initial-draftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tasktrek initial draft";
+			};
+			name = Debug;
+		};
+		6372BC822C81CD7600C328B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tasktrek-initial-draftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tasktrek initial draft";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6372BC502C81CD7500C328B0 /* Build configuration list for PBXProject "Tasktrek initial draft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6372BC782C81CD7600C328B0 /* Debug */,
+				6372BC792C81CD7600C328B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6372BC7A2C81CD7600C328B0 /* Build configuration list for PBXNativeTarget "Tasktrek initial draft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6372BC7B2C81CD7600C328B0 /* Debug */,
+				6372BC7C2C81CD7600C328B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6372BC7D2C81CD7600C328B0 /* Build configuration list for PBXNativeTarget "Tasktrek initial draftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6372BC7E2C81CD7600C328B0 /* Debug */,
+				6372BC7F2C81CD7600C328B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6372BC802C81CD7600C328B0 /* Build configuration list for PBXNativeTarget "Tasktrek initial draftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6372BC812C81CD7600C328B0 /* Debug */,
+				6372BC822C81CD7600C328B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6372BC4D2C81CD7500C328B0 /* Project object */;
+}
