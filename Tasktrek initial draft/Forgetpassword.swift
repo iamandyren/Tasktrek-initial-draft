@@ -30,17 +30,18 @@ struct ForgetpasswordView: View {
                     }
                     self.showAlert = true
                 }
-                       }) {
+                {
                 Text("Reset")
                     .frame(width:200)
                     .padding(.vertical, 15)
-                    .background(color.green)
+                    .background(Color.green)
                     .cornerRadius(8)
                     .foregroundColor(.white)
                     .opacity(user.isEmailvalid(_email: user.email) ? 1:0.75)
                     
             }
-        }
+      )  }
         
     }
 }
+                }

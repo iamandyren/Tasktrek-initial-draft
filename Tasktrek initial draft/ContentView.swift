@@ -13,7 +13,7 @@ import FirebaseAuth
 // ...
       
 
-struct ContentView: view {
+struct ContentView: View {
     @EnvironmentObject var userInfo: UserInfo
     var body: some View{
         Group{
@@ -30,7 +30,7 @@ struct ContentView: view {
         }
     }
 }
-struct ContentView_Previews: PreviewProvider{
+struct contentView_Previews: PreviewProvider{
     static var previews: some View {
         ContentView()
     }
